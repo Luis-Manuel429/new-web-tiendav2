@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    color: #333;
+    padding: 20px 0;
+	text-shadow: 0 0 3px white;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+}
+
+
+#destacados .contenedor > div {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    width: 50%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(255, 255, 0, 0.3);
+}
+
+#destacados {
+	background-color: #48AAAD;
+	padding: 2px;
+}
+
+#ofertas .contenedor > div {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    width: 33.3%;
+	box-shadow: 4px 8px;
+	text-shadow: 1px 1px 2px white, 0 0 30px #D46A6A;
+}
+
+#ofertas {
+	background-color: #FFDB58;
+	padding: 2px;
+}
+
+#disponible .contenedor > div {
+    text-align: center;
+    padding: 10px;
+    border: solid 5px coral;
+    background-color: white;
+    width: 25%;
+	box-shadow: 4px 8px #D46A6A;
+}
+
+#disponible {
+	background-color: #FA86C4;
+	padding: 2px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+	border-top: 2px solid black;
+    color: black;
+	margin: 20px;
+}
